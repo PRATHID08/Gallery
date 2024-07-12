@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.samplegallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between images */
+}
+
+.image {
+    flex: 1 0 200px; /* Flexbox properties to control image sizing */
+    overflow: hidden; /* Ensures images do not overflow their container */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.image img {
+    width: 100%; /* Ensure images fill their containers */
+    display: block; /* Remove default bottom spacing for inline elements */
+}
