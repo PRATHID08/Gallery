@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(45deg, #FF6B6B, #5E60CE, #36D1DC);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.header h1 {
+    padding: 30px;
+    color:azure(240,219);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    }
+.header overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color:#FF6B6B(200,85,55);
+    z-index: -1;
+}
+.header a:hover{
+    background-color: #FF6B6B(200,85,55);
+    border-style: dotted;
+}
+.header li{
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor:pointer;
+}
